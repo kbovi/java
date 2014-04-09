@@ -1,0 +1,42 @@
+\vfill
+\attop
+\vfill
+Name: #elternnummer#
+
+#ifeinkind#
+Ihr Kind:
+
+#end#
+#ifmehrkinder#
+Ihre Kinder:
+
+#end#
+#elternkopf#
+
+#ifeintermin#
+Ihr Termin:
+
+#end#
+#ifmehrtermine#
+Ihre Termine:
+
+#end#
+
+\begin{center}
+#termine#
+\end{center}
+
+%#ifeinige#
+\atfail
+
+\atfailpost
+%#end#
+%#ifkeine#
+\atfailall
+
+\atfailpost
+%#end#
+\vfill
+\atbottom 
+\newpage
+

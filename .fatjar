@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Fri Apr 19 08:51:41 CEST 2013
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=EST.jar
+manifest.mergeall=true
+manifest.mainclass=anwendung.ESTApp
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

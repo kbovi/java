@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="878,1126" id="lehrer" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D3130303020456C7465726E7370726563687461672F41646D696E6973747261746F72">
+  <children xsi:type="editmodel:ClassEditModel" name="KollegiumApp" location="9,15" size="139,85" id="lehrer/KollegiumApp" runTimeClassModel="KollegiumApp(Ljavax.swing.JFrame;Llehrer.Kollegium;Leltern.Eltern;Ljava.lang.Boolean;),packFrame">
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="packFrame" id="lehrer/KollegiumApp#packFrame"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,18">
+      <children xsi:type="editmodel:MethodEditModel" name="KollegiumApp" id="lehrer/KollegiumApp#KollegiumApp(Ljavax.swing.JFrame;Llehrer.Kollegium;Leltern.Eltern;Ljava.lang.Boolean;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="lehrer/KollegiumApp-Standard::Call->lehrer/KollegiumFrame*lehrer/KollegiumApp-Standard::Instantiate->lehrer/KollegiumFrame*lehrer/KollegiumApp-Soyatec::Import->lehrer/KollegiumFrame" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate, Call»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="139,42" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,42"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="lehrer/KollegiumApp-Soyatec::Import->lehrer/Kollegium" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="79,85" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="58,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.0/@sourceConnections.1" name="Kollegium" location="30,270" size="141,337" id="lehrer/Kollegium" runTimeClassModel="actLehrer(),actNumberLehrer(),besuchbareZeiten(I),getLehrer(I),freieZeiten(I),getTermnine(I),trageFallAus(II),setLehrer(I),trageFallEin(III),Kollegium(Ljava.lang.String;),anzahlLehrer(),anwesendeZeiten(I),dec(),reset(),loescheLehrer(I),inc()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,288">
+      <children xsi:type="editmodel:MethodEditModel" name="Kollegium" id="lehrer/Kollegium#Kollegium(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="actLehrer" id="lehrer/Kollegium#actLehrer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="actNumberLehrer" id="lehrer/Kollegium#actNumberLehrer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="anwesendeZeiten" id="lehrer/Kollegium#anwesendeZeiten(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="anzahlLehrer" id="lehrer/Kollegium#anzahlLehrer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="besuchbareZeiten" id="lehrer/Kollegium#besuchbareZeiten(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="dec" id="lehrer/Kollegium#dec()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="freieZeiten" id="lehrer/Kollegium#freieZeiten(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLehrer" id="lehrer/Kollegium#getLehrer(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTermnine" id="lehrer/Kollegium#getTermnine(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="inc" id="lehrer/Kollegium#inc()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loescheLehrer" id="lehrer/Kollegium#loescheLehrer(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reset" id="lehrer/Kollegium#reset()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLehrer" id="lehrer/Kollegium#setLehrer(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="trageFallAus" id="lehrer/Kollegium#trageFallAus(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="trageFallEin" id="lehrer/Kollegium#trageFallEin(III)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="lehrer/Kollegium-Standard::Call->lehrer/Lehrer*lehrer/Kollegium-Standard::Instantiate->lehrer/Lehrer*lehrer/Kollegium-Soyatec::Import->lehrer/Lehrer" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate, Call»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="141,168" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,258"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="KollegiumFrame" location="420,15" size="148,103" id="lehrer/KollegiumFrame" runTimeClassModel="widthOfFrame,KollegiumFrame(Ljavax.swing.JFrame;Llehrer.Kollegium;Leltern.Eltern;Ljava.lang.Boolean;),heightOfFrame">
+    <children xsi:type="editmodel:CompartmentEditModel" size="108,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="heightOfFrame" id="lehrer/KollegiumFrame#heightOfFrame"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="widthOfFrame" id="lehrer/KollegiumFrame#widthOfFrame"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="105,18">
+      <children xsi:type="editmodel:MethodEditModel" name="KollegiumFrame" id="lehrer/KollegiumFrame#KollegiumFrame(Ljavax.swing.JFrame;Llehrer.Kollegium;Leltern.Eltern;Ljava.lang.Boolean;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="lehrer/KollegiumFrame-Standard::Call->lehrer/Kollegium*lehrer/KollegiumFrame-Soyatec::Import->lehrer/Kollegium" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="19,103" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="141,101"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="lehrer/KollegiumFrame-Standard::Call->lehrer/Lehrer*lehrer/KollegiumFrame-Soyatec::Import->lehrer/Lehrer" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,103" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="21,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="lehrer/KollegiumFrame-Standard::Instantiate->lehrer/LehrerTaktTableModel*lehrer/KollegiumFrame-Soyatec::Import->lehrer/LehrerTaktTableModel" source="//@children.2" target="//@children.4" targetEnd="//@children.2/@sourceConnections.2/@children.2" label="//@children.2/@sourceConnections.2/@children.0" sourceEnd="//@children.2/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate»" size="96,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="148,51" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,51"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0 //@children.2/@sourceConnections.1 //@children.4/@sourceConnections.0" name="Lehrer" location="525,180" size="181,571" id="lehrer/Lehrer" runTimeClassModel="getTerminListe(),sex,anwesendeZeiten(),compareString(),ausgabeName(),istMann(),istBelegt(I),istBesuchbar(I),freieZeiten(),Lehrer(Ljava.lang.String;Ljava.lang.String;ZLjava.lang.String;),belege(II),istBelegbar(I),setAbwesend(I),name,anzahlAnwesendeTakte(),besuchbareZeiten(),anrede(),setBesuchbar(I),comboName(),anzahlBelegbareTakte(),kuerzel,istBelegtMit(I),anzahlBesuchbareTakte(),raum,setBelegbar(I),istAbwesend(I),anzahlBereitsBelegteTakte(),vollerName(),compareTo(Llehrer.Lehrer;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="88,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="kuerzel" id="lehrer/Lehrer#kuerzel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="lehrer/Lehrer#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="raum" id="lehrer/Lehrer#raum"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sex" id="lehrer/Lehrer#sex"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="158,450">
+      <children xsi:type="editmodel:MethodEditModel" name="Lehrer" id="lehrer/Lehrer#Lehrer(Ljava.lang.String;Ljava.lang.String;ZLjava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="anrede" id="lehrer/Lehrer#anrede()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="anwesendeZeiten" id="lehrer/Lehrer#anwesendeZeiten()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="anzahlAnwesendeTakte" id="lehrer/Lehrer#anzahlAnwesendeTakte()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="anzahlBelegbareTakte" id="lehrer/Lehrer#anzahlBelegbareTakte()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="anzahlBereitsBelegteTakte" id="lehrer/Lehrer#anzahlBereitsBelegteTakte()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="anzahlBesuchbareTakte" id="lehrer/Lehrer#anzahlBesuchbareTakte()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ausgabeName" id="lehrer/Lehrer#ausgabeName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="belege" id="lehrer/Lehrer#belege(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="besuchbareZeiten" id="lehrer/Lehrer#besuchbareZeiten()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="comboName" id="lehrer/Lehrer#comboName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="compareString" id="lehrer/Lehrer#compareString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="compareTo" id="lehrer/Lehrer#compareTo(Llehrer.Lehrer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="freieZeiten" id="lehrer/Lehrer#freieZeiten()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTerminListe" id="lehrer/Lehrer#getTerminListe()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="istAbwesend" id="lehrer/Lehrer#istAbwesend(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="istBelegbar" id="lehrer/Lehrer#istBelegbar(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="istBelegt" id="lehrer/Lehrer#istBelegt(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="istBelegtMit" id="lehrer/Lehrer#istBelegtMit(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="istBesuchbar" id="lehrer/Lehrer#istBesuchbar(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="istMann" id="lehrer/Lehrer#istMann()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAbwesend" id="lehrer/Lehrer#setAbwesend(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setBelegbar" id="lehrer/Lehrer#setBelegbar(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setBesuchbar" id="lehrer/Lehrer#setBesuchbar(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="vollerName" id="lehrer/Lehrer#vollerName()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.2" name="LehrerTaktTableModel" location="825,15" size="186,157" id="lehrer/LehrerTaktTableModel" runTimeClassModel="getColumnCount(),getValueAt(II),getRowCount(),LehrerTaktTableModel(Llehrer.Lehrer;Leltern.Eltern;),getColumnClass(I),getColumnName(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,108">
+      <children xsi:type="editmodel:MethodEditModel" name="LehrerTaktTableModel" id="lehrer/LehrerTaktTableModel#LehrerTaktTableModel(Llehrer.Lehrer;Leltern.Eltern;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnClass" id="lehrer/LehrerTaktTableModel#getColumnClass(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnCount" id="lehrer/LehrerTaktTableModel#getColumnCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnName" id="lehrer/LehrerTaktTableModel#getColumnName(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRowCount" id="lehrer/LehrerTaktTableModel#getRowCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValueAt" id="lehrer/LehrerTaktTableModel#getValueAt(II)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="lehrer/LehrerTaktTableModel-Standard::Call->lehrer/Lehrer*lehrer/LehrerTaktTableModel-Soyatec::Import->lehrer/Lehrer" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="29,157" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="181,173"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=7;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

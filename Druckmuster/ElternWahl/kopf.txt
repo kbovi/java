@@ -1,0 +1,68 @@
+\NeedsTeXFormat{LaTeX2e}
+\documentclass[12pt]{article}
+\usepackage{ngerman}
+\usepackage{latexsym}
+%\usepackage{expdlist}
+%\usepackage{fancybox}
+%\usepackage{enumerate}
+%\usepackage{latexsym}
+% --- Unterstuetzen von deutschen Umlauten
+\usepackage[ansi]{umlaute}
+% --- Verwenden von DC-Fonts (erlaubt richtiges Trennen
+%      auch in Worten mit Umlauten)
+\usepackage{t1enc}
+\usepackage{a4}
+\pagestyle{empty}
+\parindent 0pt
+\parskip 1.5ex plus 0.5ex minus 0.5ex
+\oddsidemargin-1cm
+\evensidemargin-1cm
+\textwidth17cm
+\topmargin-2cm
+\textheight26cm
+\newcommand{\kasten}{$\Box$\ }
+ 
+\def\crule{\rule[-0.15ex]{1cm}{0.5pt}\hspace*{2\tabcolsep}}
+ 
+\def\attoptop{\hfill Bielefeld,\ \today}
+ 
+\def\attop{% 
+Liebe Eltern,\\ 
+der kommende Elternsprechtag steht bevor: 
+#datum#
+ 
+Dieses Organisationsmodell lässt es nicht zu, dass Sie Zeitwünsche
+angeben. Wenn Sie aber
+aus beruflichen Gründen am Freitag zwischen 14.00 und 17.00~h noch keinen
+Termin wahrnehmen können, kreuzen Sie bitte das entsprechende Feld an.\\ 
+Wir bemühen uns, die Gesprächswünsche der Eltern mit den Sprechzeiten der
+Lehrerinnen und Lehrer zu koordinieren. Füllen Sie dazu bitte den
+Abschnitt unten aus. 
+ 
+Es kann sein, dass wir Ihnen auf Grund starker Nachfrage bei einzelnen
+Lehrerinnen und Lehrern keinen Termin am Sprechtag organisieren können.
+Wir bitten Sie dann, 
+\begin{itemize}
+  \item über Ihr Kind einen besonderen Termin mit der betroffenen
+  Lehrerin bzw. dem betroffenen Lehrer abzusprechen oder 
+  \item am Elternsprechtag auszuprobieren, ob Sie
+  \glqq{}dazwischenrutschen\grqq{} können. 
+\end{itemize} 
+
+\rule{0pt}{0pt}\hfill Mit freundlichen Grüßen\\
+\rule{0pt}{0pt}\hfill von Alven}
+
+\def\schere{% 
+\rule{0pt}{0pt}$\succ$\hrulefill\ Bitte bis zum #backdate# im Sekretariat zurückgeben\ \hrulefill $\prec$\rule{0pt}{0pt}}
+
+\def\text{%
+Ich möchte mit folgenden Lehrern sprechen (bitte {\bf Nummern(!)} laut Anlage
+in der Reihenfolge der Wichtigkeit eintragen):
+}
+ 
+\def\atbottom{%
+\kasten\ Ich kann am Freitag zwischen 14.00 und 17.00~h aus beruflichen
+Gründen noch
+{\bf keinen} Termin wahrnehmen.}
+
+\begin{document} 

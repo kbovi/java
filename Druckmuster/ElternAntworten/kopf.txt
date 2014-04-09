@@ -1,0 +1,61 @@
+\NeedsTeXFormat{LaTeX2e}
+\documentclass[12pt]{article}
+\usepackage{ngerman}
+%\usepackage{expdlist}
+%\usepackage{fancybox}
+%\usepackage{enumerate}
+%\usepackage{latexsym}
+% --- Unterstuetzen von deutschen Umlauten
+\usepackage[ansi]{umlaute}
+% --- Verwenden von DC-Fonts (erlaubt richtiges Trennen
+%      auch in Worten mit Umlauten)
+\usepackage{t1enc}
+\usepackage{a4}
+\pagestyle{empty}
+\parindent 0pt
+\parskip 1.5ex plus 0.5ex minus 0.5ex
+\oddsidemargin-1cm
+\evensidemargin-1cm
+\textwidth17cm
+\topmargin-2cm
+
+\def\estdatuma{} 
+\def\estdatumb{} 
+\def\backdatum{} 
+\def\ersatz{} 
+ 
+\def\crule{\rule[-0.15ex]{1cm}{0.5pt}\hspace*{2\tabcolsep}}
+
+\def\attop{%
+{Bielefeld, \today}% 
+%\hfill\parbox{\wd\mpglogobox}{\usebox\mpglogobox}
+\vfill 
+Liebe Eltern, 
+ 
+nach Auswertung der von Ihnen eingereichten Gesprächswünsche haben wir für 
+Sie am kommenden Elternsprechtag am 
+#datum# versucht, Termine zu reservieren.} 
+ 
+\def\atfailall{Ihre Wünsche waren leider
+nicht erfüllbar, da die von Ihnen gewünschten Lehrerinnen bzw. Lehrer
+keine Termine zu den 
+von Ihnen gewünschten Zeiten hatten oder da Ihre Termine mit denen 
+anderer Eltern kollidierten.} 
+ 
+\def\atfail{Einige Ihrer Wünsche waren leider nicht erfüllbar.} 
+ 
+\def\atfailpost{Wir möchten Ihnen daher Folgendes vorschlagen: 
+\begin{enumerate} 
+  \item Bitte sprechen Sie über Ihr Kind mit der betreffenden Lehrerin bzw.
+  mit dem entsprechenden Lehrer einen besonderen Termin ab.
+  \item Wenn das nicht geht, versuchen Sie am Elternsprechtag
+  \glqq{}dazwischenzurutschen\grqq{}: Manchmal werden abgesprochene Termine
+  nicht wahrgenommen, und es ist Zeit für Sie. 
+\end{enumerate} 
+} 
+ 
+\def\atbottom{Mit freundlichen Grüßen\\[5mm] 
+Klaus Bovermann} 
+
+\begin{document}
+

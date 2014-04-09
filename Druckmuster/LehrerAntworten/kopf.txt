@@ -1,0 +1,39 @@
+\NeedsTeXFormat{LaTeX2e}
+\documentclass[12pt]{article}
+\usepackage{ngerman}
+%\usepackage{expdlist}
+%\usepackage{fancybox}
+%\usepackage{enumerate}
+%\usepackage{latexsym}
+% --- Unterstuetzen von deutschen Umlauten
+\usepackage[ansi]{umlaute}
+% --- Verwenden von DC-Fonts (erlaubt richtiges Trennen
+%      auch in Worten mit Umlauten)
+\usepackage{t1enc}
+\usepackage{a4}
+\pagestyle{empty}
+\parindent 0pt
+\parskip 1.5ex plus 0.5ex minus 0.5ex
+\oddsidemargin-1cm
+\evensidemargin-1cm
+\textwidth17cm
+\topmargin-2.5cm
+\textheight27cm
+
+\def\estdatuma{} 
+\def\estdatumb{} 
+\def\backdatum{} 
+\def\ersatz{} 
+ 
+\def\crule{\rule[-0.15ex]{1cm}{0.5pt}\hspace*{2\tabcolsep}}
+
+\def\attop{%
+{Bielefeld, \today}}
+\def\spruch{%
+am #datum# findet der kommende Elternsprechtag statt. Ihr persönlicher Plan} 
+
+\def\atbottom{Mit freundlichen Grüßen\\[5mm] 
+Klaus Bovermann} 
+
+\begin{document}
+

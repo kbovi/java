@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="3063,2104" id="eltern" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D3130303020456C7465726E7370726563687461672F41646D696E6973747261746F72">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.1" name="Hordizer" location="570,1020" size="277,103" id="eltern/Hordizer" runTimeClassModel="getEltern(),Hordizer(Ljava.lang.String;),elternArray">
+    <children xsi:type="editmodel:CompartmentEditModel" size="254,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="elternArray" id="eltern/Hordizer#elternArray"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="72,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Hordizer" id="eltern/Hordizer#Hordizer(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEltern" id="eltern/Hordizer#getEltern()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="eltern/Hordizer-Standard::Call->eltern/Horde" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="133,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="58,85"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="eltern/Hordizer-Standard::Call->eltern/Fall*eltern/Hordizer-Standard::Instantiate->eltern/Fall*eltern/Hordizer-Soyatec::Import->eltern/Fall" source="//@children.0" target="//@children.6" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate, Call»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="159,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,626"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="eltern/Hordizer-Standard::Instantiate->eltern/Pupil*eltern/Hordizer-Soyatec::Import->eltern/Pupil" source="//@children.0" target="//@children.5" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate»" size="96,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="118,107"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="eltern/Hordizer-Soyatec::Import->eltern/Eltern" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.3/@children.2" label="//@children.0/@sourceConnections.3/@children.0" sourceEnd="//@children.0/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="22,55" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="241,638"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.3" name="LehrerTableModel" location="30,18" size="159,157" id="eltern/LehrerTableModel" runTimeClassModel="getColumnCount(),LehrerTableModel(Llehrer.Kollegium;),getValueAt(II),getRowCount(),getColumnClass(I),getColumnName(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,108">
+      <children xsi:type="editmodel:MethodEditModel" name="LehrerTableModel" id="eltern/LehrerTableModel#LehrerTableModel(Llehrer.Kollegium;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnClass" id="eltern/LehrerTableModel#getColumnClass(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnCount" id="eltern/LehrerTableModel#getColumnCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnName" id="eltern/LehrerTableModel#getColumnName(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRowCount" id="eltern/LehrerTableModel#getRowCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValueAt" id="eltern/LehrerTableModel#getValueAt(II)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.2 //@children.0/@sourceConnections.3 //@children.3/@sourceConnections.0" name="Eltern" location="15,453" size="241,733" id="eltern/Eltern" runTimeClassModel="hatZeit(II),befreie(II),Eltern(Ljava.lang.String;),getTakt(II),macheWunscherfuellungRueckgaengig(II),getAnzahlErfuellterWuensche(I),getElternNummer(Ljava.lang.String;),getAnzahlLehrerGewollt(I),sperre(II),getKinderzahl(I),getFall(I),setTaktBeiElternwunsch(III),isGesperrt(II),keinWunschErfuellt(I),loescheLeereEltern(),anzahlErfuellterWuensche(),inc(),erfuelleWunsch(III),getActFall(),getNachname(I),alleElternNamen(Ljava.lang.String;),setTakt(III),getAnzahlEltern(),totalAnzahlWunsche(),setEltern(I),getWunsch(II),wahlstring(I),getTaktBeiElternwunsch(II),elternWunschWurdeErfuellt(II),setWunsch(III),anzahlElternHabenGewaehlt(I),getVornamen(I),alleWuenscheErfuellt(I),getGewollt(II),dec(),reset(),getActNumberEltern(),einigeWuenscheErfuellt(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="218,684">
+      <children xsi:type="editmodel:MethodEditModel" name="Eltern" id="eltern/Eltern#Eltern(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="alleElternNamen" id="eltern/Eltern#alleElternNamen(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="alleWuenscheErfuellt" id="eltern/Eltern#alleWuenscheErfuellt(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="anzahlElternHabenGewaehlt" id="eltern/Eltern#anzahlElternHabenGewaehlt(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="anzahlErfuellterWuensche" id="eltern/Eltern#anzahlErfuellterWuensche()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="befreie" id="eltern/Eltern#befreie(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="dec" id="eltern/Eltern#dec()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="einigeWuenscheErfuellt" id="eltern/Eltern#einigeWuenscheErfuellt(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="elternWunschWurdeErfuellt" id="eltern/Eltern#elternWunschWurdeErfuellt(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="erfuelleWunsch" id="eltern/Eltern#erfuelleWunsch(III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getActFall" id="eltern/Eltern#getActFall()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getActNumberEltern" id="eltern/Eltern#getActNumberEltern()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAnzahlEltern" id="eltern/Eltern#getAnzahlEltern()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAnzahlErfuellterWuensche" id="eltern/Eltern#getAnzahlErfuellterWuensche(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAnzahlLehrerGewollt" id="eltern/Eltern#getAnzahlLehrerGewollt(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getElternNummer" id="eltern/Eltern#getElternNummer(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFall" id="eltern/Eltern#getFall(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getGewollt" id="eltern/Eltern#getGewollt(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getKinderzahl" id="eltern/Eltern#getKinderzahl(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNachname" id="eltern/Eltern#getNachname(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTakt" id="eltern/Eltern#getTakt(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTaktBeiElternwunsch" id="eltern/Eltern#getTaktBeiElternwunsch(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVornamen" id="eltern/Eltern#getVornamen(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getWunsch" id="eltern/Eltern#getWunsch(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hatZeit" id="eltern/Eltern#hatZeit(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="inc" id="eltern/Eltern#inc()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isGesperrt" id="eltern/Eltern#isGesperrt(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keinWunschErfuellt" id="eltern/Eltern#keinWunschErfuellt(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loescheLeereEltern" id="eltern/Eltern#loescheLeereEltern()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="macheWunscherfuellungRueckgaengig" id="eltern/Eltern#macheWunscherfuellungRueckgaengig(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reset" id="eltern/Eltern#reset()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setEltern" id="eltern/Eltern#setEltern(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTakt" id="eltern/Eltern#setTakt(III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTaktBeiElternwunsch" id="eltern/Eltern#setTaktBeiElternwunsch(III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setWunsch" id="eltern/Eltern#setWunsch(III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sperre" id="eltern/Eltern#sperre(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="totalAnzahlWunsche" id="eltern/Eltern#totalAnzahlWunsche()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="wahlstring" id="eltern/Eltern#wahlstring(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="eltern/Eltern-Standard::Call->eltern/Fall*eltern/Eltern-Soyatec::Import->eltern/Fall" source="//@children.2" target="//@children.6" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="241,170" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,581"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="eltern/Eltern-Standard::Call->eltern/Hordizer*eltern/Eltern-Standard::Instantiate->eltern/Hordizer*eltern/Eltern-Soyatec::Import->eltern/Hordizer" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate, Call»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="241,618" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="22,51"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ElternApp" location="657,174" size="104,67" id="eltern/ElternApp" runTimeClassModel="ElternApp(Ljavax.swing.JFrame;Llehrer.Kollegium;Leltern.Eltern;Ljava.lang.Boolean;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="77,18">
+      <children xsi:type="editmodel:MethodEditModel" name="ElternApp" id="eltern/ElternApp#ElternApp(Ljavax.swing.JFrame;Llehrer.Kollegium;Leltern.Eltern;Ljava.lang.Boolean;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="eltern/ElternApp-Soyatec::Import->eltern/Eltern" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,67" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="241,237"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="eltern/ElternApp-Standard::Call->eltern/ElternFrame*eltern/ElternApp-Standard::Instantiate->eltern/ElternFrame*eltern/ElternApp-Soyatec::Import->eltern/ElternFrame" source="//@children.3" target="//@children.8" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate, Call»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="13,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="100,67"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0 //@children.0/@sourceConnections.0" name="Horde" location="645,792" size="118,85" id="eltern/Horde" runTimeClassModel="getVornamen(),getKlasse()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,36">
+      <children xsi:type="editmodel:MethodEditModel" name="getKlasse" id="eltern/Horde#getKlasse()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVornamen" id="eltern/Horde#getVornamen()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="eltern/Horde-Standard::Call->eltern/Pupil*eltern/Horde-Soyatec::Import->eltern/Pupil" source="//@children.4" target="//@children.5" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,31" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="118,88"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.6/@sourceConnections.1 //@children.0/@sourceConnections.2" name="Pupil" location="300,735" size="118,121" id="eltern/Pupil" runTimeClassModel="vorname,Pupil(Ljava.lang.String;Ljava.lang.String;),klasse,compareTo(Leltern.Pupil;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="klasse" id="eltern/Pupil#klasse"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vorname" id="eltern/Pupil#vorname"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="84,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Pupil" id="eltern/Pupil#Pupil(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="compareTo" id="eltern/Pupil#compareTo(Leltern.Pupil;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.8/@sourceConnections.0 //@children.7/@sourceConnections.0 //@children.0/@sourceConnections.1" name="Fall" location="870,42" size="202,751" id="eltern/Fall" runTimeClassModel="addGewollt(I),getTakt(I),lehrerWurdeGewollt(I),alleWuenscheErfuellt(),isGesperrt(I),isBelegtMit(I),wahlstring(),isBelegt(I),getKlasse(),getAnzahlErfuellterWuensche(),toString(),sperre(I),getAlleLehrerNummern(),getVornamen(),getKinderzahl(),isFrei(I),compareTo(Leltern.Fall;),einigeWuenscheErfuellt(),getGewollteKollegen(),lehrerWurdeErfolgreichGewollt(I),nachname,getAlleLehrer(Llehrer.Kollegium;),getCompareString(),setTaktBeiElternwunsch(II),getGewollt(I),fallNr,Fall(Ljava.lang.String;I),setTakt(II),takte,befreie(I),clearGewollt(),wahlergebnis(),setGewollt(II),getKindernamen(),getTaktBeiElternwunsch(I),keinWunschErfuellt(),anzahlLehrerGewollt,getHorde(),getAlleLehrerListe(Llehrer.Kollegium;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="137,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="anzahlLehrerGewollt" id="eltern/Fall#anzahlLehrerGewollt"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fallNr" id="eltern/Fall#fallNr"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nachname" id="eltern/Fall#nachname"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="takte" id="eltern/Fall#takte"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="179,630">
+      <children xsi:type="editmodel:MethodEditModel" name="Fall" id="eltern/Fall#Fall(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addGewollt" id="eltern/Fall#addGewollt(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="alleWuenscheErfuellt" id="eltern/Fall#alleWuenscheErfuellt()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="befreie" id="eltern/Fall#befreie(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearGewollt" id="eltern/Fall#clearGewollt()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="compareTo" id="eltern/Fall#compareTo(Leltern.Fall;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="einigeWuenscheErfuellt" id="eltern/Fall#einigeWuenscheErfuellt()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAlleLehrer" id="eltern/Fall#getAlleLehrer(Llehrer.Kollegium;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAlleLehrerListe" id="eltern/Fall#getAlleLehrerListe(Llehrer.Kollegium;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAlleLehrerNummern" id="eltern/Fall#getAlleLehrerNummern()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAnzahlErfuellterWuensche" id="eltern/Fall#getAnzahlErfuellterWuensche()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCompareString" id="eltern/Fall#getCompareString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getGewollt" id="eltern/Fall#getGewollt(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getGewollteKollegen" id="eltern/Fall#getGewollteKollegen()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getHorde" id="eltern/Fall#getHorde()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getKindernamen" id="eltern/Fall#getKindernamen()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getKinderzahl" id="eltern/Fall#getKinderzahl()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getKlasse" id="eltern/Fall#getKlasse()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTakt" id="eltern/Fall#getTakt(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTaktBeiElternwunsch" id="eltern/Fall#getTaktBeiElternwunsch(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVornamen" id="eltern/Fall#getVornamen()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isBelegt" id="eltern/Fall#isBelegt(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isBelegtMit" id="eltern/Fall#isBelegtMit(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isFrei" id="eltern/Fall#isFrei(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isGesperrt" id="eltern/Fall#isGesperrt(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keinWunschErfuellt" id="eltern/Fall#keinWunschErfuellt()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lehrerWurdeErfolgreichGewollt" id="eltern/Fall#lehrerWurdeErfolgreichGewollt(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lehrerWurdeGewollt" id="eltern/Fall#lehrerWurdeGewollt(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setGewollt" id="eltern/Fall#setGewollt(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTakt" id="eltern/Fall#setTakt(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTaktBeiElternwunsch" id="eltern/Fall#setTaktBeiElternwunsch(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sperre" id="eltern/Fall#sperre(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="eltern/Fall#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="wahlergebnis" id="eltern/Fall#wahlergebnis()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="wahlstring" id="eltern/Fall#wahlstring()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="eltern/Fall-Standard::Call->eltern/Horde*eltern/Fall-Standard::Instantiate->eltern/Horde*eltern/Fall-Soyatec::Import->eltern/Horde" source="//@children.6" target="//@children.4" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate, Call»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,750" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="eltern/Fall-Standard::Call->eltern/Pupil*eltern/Fall-Soyatec::Import->eltern/Pupil" source="//@children.6" target="//@children.5" targetEnd="//@children.6/@sourceConnections.1/@children.2" label="//@children.6/@sourceConnections.1/@children.0" sourceEnd="//@children.6/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,722" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="118,29"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.1" name="ElternTaktTableModel" location="45,240" size="181,157" id="eltern/ElternTaktTableModel" runTimeClassModel="getColumnCount(),getValueAt(II),getRowCount(),getColumnClass(I),getColumnName(I),ElternTaktTableModel(Leltern.Fall;Llehrer.Kollegium;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="131,108">
+      <children xsi:type="editmodel:MethodEditModel" name="ElternTaktTableModel" id="eltern/ElternTaktTableModel#ElternTaktTableModel(Leltern.Fall;Llehrer.Kollegium;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnClass" id="eltern/ElternTaktTableModel#getColumnClass(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnCount" id="eltern/ElternTaktTableModel#getColumnCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnName" id="eltern/ElternTaktTableModel#getColumnName(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRowCount" id="eltern/ElternTaktTableModel#getRowCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValueAt" id="eltern/ElternTaktTableModel#getValueAt(II)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="eltern/ElternTaktTableModel-Standard::Call->eltern/Fall*eltern/ElternTaktTableModel-Soyatec::Import->eltern/Fall" source="//@children.7" target="//@children.6" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="181,78" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,276"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.1" name="ElternFrame" location="465,18" size="120,67" id="eltern/ElternFrame" runTimeClassModel="ElternFrame(Ljavax.swing.JFrame;Llehrer.Kollegium;Leltern.Eltern;Ljava.lang.Boolean;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="87,18">
+      <children xsi:type="editmodel:MethodEditModel" name="ElternFrame" id="eltern/ElternFrame#ElternFrame(Ljavax.swing.JFrame;Llehrer.Kollegium;Leltern.Eltern;Ljava.lang.Boolean;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="eltern/ElternFrame-Standard::Call->eltern/Fall*eltern/ElternFrame-Soyatec::Import->eltern/Fall" source="//@children.8" target="//@children.6" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="101,45" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,21"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="eltern/ElternFrame-Standard::Instantiate->eltern/ElternTaktTableModel*eltern/ElternFrame-Soyatec::Import->eltern/ElternTaktTableModel" source="//@children.8" target="//@children.7" targetEnd="//@children.8/@sourceConnections.1/@children.2" label="//@children.8/@sourceConnections.1/@children.0" sourceEnd="//@children.8/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate»" size="96,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,67" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="181,16"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="eltern/ElternFrame-Standard::Call->eltern/Eltern*eltern/ElternFrame-Soyatec::Import->eltern/Eltern" source="//@children.8" target="//@children.2" targetEnd="//@children.8/@sourceConnections.2/@children.2" label="//@children.8/@sourceConnections.2/@children.0" sourceEnd="//@children.8/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="43,67" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="241,128"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="eltern/ElternFrame-Standard::Instantiate->eltern/LehrerTableModel*eltern/ElternFrame-Soyatec::Import->eltern/LehrerTableModel" source="//@children.8" target="//@children.1" targetEnd="//@children.8/@sourceConnections.3/@children.2" label="//@children.8/@sourceConnections.3/@children.0" sourceEnd="//@children.8/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate»" size="96,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,33" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="159,33"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=7;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

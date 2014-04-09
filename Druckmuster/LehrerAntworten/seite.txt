@@ -1,0 +1,18 @@
+\vfill
+\attop
+
+#anrede#
+
+\spruch
+
+#lehrererfolgreich#
+
+#iferfolglos#
+Folgende Eltern haben bei Ihnen keinen Termin erhalten:
+#lehrererfolglos#
+#end#
+
+
+\vfill
+\atbottom 
+\newpage

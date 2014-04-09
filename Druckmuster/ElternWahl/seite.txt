@@ -1,0 +1,65 @@
+\attoptop
+
+\attop
+
+\schere
+
+Name: #elternnummer#
+
+#ifeinkind#
+Ihr Kind:
+
+#end#
+#ifmehrkinder#
+Ihre Kinder:
+
+#end#
+#elternkopf#
+
+\vfill
+
+\text
+
+\begin{center}
+
+#ifeinkind#
+1.: \crule
+2.: \crule
+3.: \crule
+4.: \crule
+5.: \crule
+#end#
+#ifzweikinder#
+1.: \crule
+2.: \crule
+3.: \crule
+4.: \crule
+5.: \crule
+6.: \crule
+7.: \crule
+8.: \crule
+#end#
+#ifvielekinder#
+1.: \crule
+2.: \crule
+3.: \crule
+4.: \crule
+5.: \crule\\[1cm]
+6.: \crule
+7.: \crule
+8.: \crule
+9.: \crule
+10.: \crule
+#end#
+\end{center}
+
+\atbottom
+\vfill
+\hfill%
+\begin{minipage}{5cm}
+\begin{center}
+\rule{4cm}{0.5pt}\\
+Unterschrift
+\end{center}
+\end{minipage} 
+\newpage

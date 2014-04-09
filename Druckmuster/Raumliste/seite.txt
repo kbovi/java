@@ -1,0 +1,15 @@
+{\Large\textbf{#lehrername# \hfill Raum \textbf{#raumname#}}}
+
+\begin{minipage}[t]{9cm}
+{\large\textbf{#Wochentag1#}}
+
+#alleterminedescription1#
+%#alleterminetabelle1#
+%#alleterminedescription1#
+\end{minipage}
+\begin{minipage}[t]{9cm}
+{\large\textbf{#Wochentag2#}}
+
+#alleterminedescription2#
+\end{minipage}
+\newpage

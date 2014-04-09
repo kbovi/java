@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="679,463" id="ausgabe" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D3130303020456C7465726E7370726563687461672F41646D696E6973747261746F72">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="AusgabeGenerator" location="50,50" size="184,355" id="ausgabe/AusgabeGenerator" runTimeClassModel="erfuellt(Ljava.lang.String;I),myEltern,lehrerlistenausgabe(Ljava.lang.String;Ljava.io.File;),arrayList2LaTeXEnumerate(Ljava.util.ArrayList;),myLogbuch,parsen(Ljava.lang.String;Ljava.lang.String;ZI),AusgabeGenerator(Leltern.Eltern;Llehrer.Kollegium;),ausgabe(Ljava.lang.String;Ljava.io.File;I),myTexter,elternausgabe(Ljava.lang.String;Ljava.io.File;),lehrerausgabe(Ljava.lang.String;Ljava.io.File;),myKollegium,arrayList2LaTeXItemize(Ljava.util.ArrayList;),arrayList2LaTeXTable(Ljava.util.ArrayList;I),arrayList2LaTeXLongTable(Ljava.util.ArrayList;ILjava.lang.String;Ljava.lang.String;),replace(Ljava.lang.String;I),statistik2TeX(Ljava.util.ArrayList;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="myEltern" id="ausgabe/AusgabeGenerator#myEltern"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="myKollegium" id="ausgabe/AusgabeGenerator#myKollegium"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="myLogbuch" id="ausgabe/AusgabeGenerator#myLogbuch"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="myTexter" id="ausgabe/AusgabeGenerator#myTexter"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="161,234">
+      <children xsi:type="editmodel:MethodEditModel" name="AusgabeGenerator" id="ausgabe/AusgabeGenerator#AusgabeGenerator(Leltern.Eltern;Llehrer.Kollegium;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="arrayList2LaTeXEnumerate" id="ausgabe/AusgabeGenerator#arrayList2LaTeXEnumerate(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="arrayList2LaTeXItemize" id="ausgabe/AusgabeGenerator#arrayList2LaTeXItemize(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="arrayList2LaTeXLongTable" id="ausgabe/AusgabeGenerator#arrayList2LaTeXLongTable(Ljava.util.ArrayList;ILjava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="arrayList2LaTeXTable" id="ausgabe/AusgabeGenerator#arrayList2LaTeXTable(Ljava.util.ArrayList;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ausgabe" id="ausgabe/AusgabeGenerator#ausgabe(Ljava.lang.String;Ljava.io.File;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="elternausgabe" id="ausgabe/AusgabeGenerator#elternausgabe(Ljava.lang.String;Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="erfuellt" id="ausgabe/AusgabeGenerator#erfuellt(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lehrerausgabe" id="ausgabe/AusgabeGenerator#lehrerausgabe(Ljava.lang.String;Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lehrerlistenausgabe" id="ausgabe/AusgabeGenerator#lehrerlistenausgabe(Ljava.lang.String;Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parsen" id="ausgabe/AusgabeGenerator#parsen(Ljava.lang.String;Ljava.lang.String;ZI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="replace" id="ausgabe/AusgabeGenerator#replace(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="statistik2TeX" id="ausgabe/AusgabeGenerator#statistik2TeX(Ljava.util.ArrayList;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DruckAPP" location="284,50" size="139,85" id="ausgabe/DruckAPP" runTimeClassModel="DruckAPP(Ljavax.swing.JFrame;Lausgabe.AusgabeGenerator;Z),packFrame">
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="packFrame" id="ausgabe/DruckAPP#packFrame"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="78,18">
+      <children xsi:type="editmodel:MethodEditModel" name="DruckAPP" id="ausgabe/DruckAPP#DruckAPP(Ljavax.swing.JFrame;Lausgabe.AusgabeGenerator;Z)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ausgabe/DruckAPP-Soyatec::Import->ausgabe/AusgabeGenerator" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="2,42" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="184,42"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=7;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
