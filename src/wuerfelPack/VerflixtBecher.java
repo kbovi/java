@@ -17,10 +17,6 @@ public class VerflixtBecher extends Wuerfelbecher {
 		super ();
 	}
 	
-	public int getSumme () {
-		return (this.getWurf_1() + this.getWurf_2());
-	}
-	
 	public boolean summeIstSieben () {
 		return (this.getSumme() == 7);
 	}

@@ -39,4 +39,8 @@ public class Wuerfelbecher {
 	public int getWurf_2() {
 		return wurf_2;
 	}
+	
+	public int getSumme () {
+		return this.getWurf_1() + this.getWurf_2();
+	}
 }
